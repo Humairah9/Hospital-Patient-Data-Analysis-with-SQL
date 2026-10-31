@@ -1,0 +1,11 @@
+Patient_ID,Patient_Name,Age,Gender,City,Condition,Admission_Type,Doctor_ID,Admission_Date,Length_of_Stay,Treatment_Status
+P001,Aisha Bello,34,Female,Lagos,Malaria,Emergency,D001,1/5/2026,3,Recovered
+P002,Chinedu Okafor,52,Male,Abuja,Hypertension,Scheduled,D002,1/7/2026,5,Recovering
+P003,Fatima Yusuf,27,Female,Kano,Typhoid,Emergency,D003,1/10/2026,4,Recovered
+P004,David Mensah,61,Male,Accra,Diabetes,Scheduled,D001,1/12/2026,7,Recovering
+P005,Zainab Ali,45,Female,Lagos,Asthma,Emergency,D002,1/15/2026,2,Recovered
+P006,Tunde Adeyemi,39,Male,Ibadan,Malaria,Emergency,D003,1/18/2026,3,Recovered
+P007,Grace Eze,68,Female,Enugu,Hypertension,Scheduled,D001,1/20/2026,8,Recovering
+P008,Ibrahim Musa,23,Male,Kaduna,Typhoid,Emergency,D002,1/22/2026,4,Recovered
+P009,Mary Johnson,56,Female,Lagos,Diabetes,Scheduled,D003,1/24/2026,6,Recovering
+P010,Samuel Obi,41,Male,Port Harcourt,Asthma,Emergency,D001,1/27/2026,2,Recovered
