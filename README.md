@@ -300,7 +300,7 @@ Query 25 (doctor with the most patients):
 ## How to Explore This Project
 
 - **Quick look:** see the query screenshots in [SQL Queries and Analysis](#sql-queries-and-analysis).
-- **PDF:** [Download the analysis as PDF](your-pdf-link)
+- **PDF:** [Download the analysis as PDF](SQL_Patient_Analysis_Report.pdf)
 - **Walkthrough:** [Watch the query demo on Loom](https://www.loom.com/share/9b0700cc94b94a6e9b22ecfd940800c3)
 - **Full script:** [View all 25 queries](TWDP_SQL_Assignment.sql).
 - **Data:** [`Patients.csv` and `Doctors.csv`](data) are the source tables.
