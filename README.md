@@ -27,7 +27,7 @@ This project uses SQL to turn a patient dataset into answers to practical questi
 
 ## Data Overview and Dataset Structure
 
-The analysis uses two related tables in a SQL Server database called `TWDP Assignment`. This is a practice dataset, not real patient data. The source files are in [`data/`](data/).
+The analysis uses two related tables in a SQL Server database called `TWDP Assignment`. This is a practice dataset, not real patient data. The source files are in [`data/`](data).
 
 ### Patients (10 rows)
 
@@ -299,7 +299,7 @@ Query 25 (doctor with the most patients):
 
 ## How to Explore This Project
 
-- **Quick look:** see the query screenshots in [SQL Queries and Analysis](#sql-queries-and-analysis).
+- **Quick look:** see the query screenshots in [SQL Queries and Analysis](image).
 - **PDF:** [Download the analysis as PDF](SQL_Patient_Analysis_Report.pdf)
 - **Walkthrough:** [Watch the query demo on Loom](https://www.loom.com/share/9b0700cc94b94a6e9b22ecfd940800c3)
 - **Full script:** [View all 25 queries](TWDP_SQL_Assignment.sql).
