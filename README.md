@@ -82,6 +82,10 @@ WHERE City = 'Lagos'
 | 4 | Female, Lagos, Emergency | 2 (P001, P005) |
 | 5 | Diabetes or Hypertension | 4 (P002, P004, P007, P009) |
 
+**Screenshot:**
+
+![Query 4: female patients from Lagos admitted through emergency admission](images/q04_female_lagos_emergency.png)
+
 **Insight:** Lagos is the largest patient city, with 3 of the 10 patients. All three stays over 5 days belong to patients with diabetes or hypertension, and all three are scheduled admissions. The fourth chronic patient, P002, stayed exactly 5 days, so chronic conditions appear to drive longer stays.
 
 ### 2. Sorting and Unique Values (Queries 6-7)
@@ -97,6 +101,10 @@ ORDER BY Length_of_Stay DESC
 
 **Result:** The three longest stays are P007 (8 days, hypertension), P004 (7 days, diabetes) and P009 (6 days, diabetes). The patients come from 8 cities: Abuja, Accra, Enugu, Ibadan, Kaduna, Kano, Lagos and Port Harcourt.
 
+**Screenshot:**
+
+![Query 6: the 3 patients with the longest hospital stays](images/q06_longest_stays.png)
+
 **Insight:** All three longest stays are scheduled admissions for chronic conditions (hypertension and diabetes), in patients aged 56 or older. The patients are spread widely, with 7 of the 8 cities having only one patient each.
 
 ### 3. Aggregate Functions (Queries 8-10)
@@ -110,6 +118,10 @@ FROM Patients
 ```
 
 **Result:** There are 10 patients with an average age of 44.6 years. Each of the five conditions (Asthma, Diabetes, Hypertension, Malaria and Typhoid) has exactly 2 patients.
+
+**Screenshot:**
+
+![Query 10: number of patients for each medical condition](images/q10_conditions.png)
 
 **Insight:** The patient mix is evenly split across conditions, so no single condition dominates demand.
 
@@ -171,6 +183,16 @@ HAVING AVG(Length_of_Stay * 1.0) > 4
 
 Only **Scheduled** admissions average more than 4 days. All five conditions have more than one patient, so query 21 returns all five.
 
+**Screenshots:**
+
+Query 16 (average stay for each admission type):
+
+![Query 16: average length of stay for each admission type](images/q16_avg_stay_admission.png)
+
+Query 17 (only admission types averaging more than 4 days):
+
+![Query 17: admission types with an average stay above 4 days](images/q17_having_avg_stay.png)
+
 **Insight:** Scheduled admissions stay more than twice as long as emergency admissions, so they take up far more bed-days per patient.
 
 ### 7. Conditional Logic with CASE (Queries 18-20)
@@ -200,6 +222,10 @@ FROM Patients
 
 Four patients have a short stay and six have a long stay.
 
+**Screenshot:**
+
+![Query 19: patients grouped by age category](images/q19_age_groups.png)
+
 **Insight:** The two seniors (P004, aged 61, and P007, aged 68) have the 2nd and 1st longest stays (7 and 8 days), so age and length of stay move together here. Most patients (6 of 10) stay longer than 3 days.
 
 ### 8. Joins (Queries 22-25)
@@ -227,6 +253,20 @@ ORDER BY Patient_Count DESC
 | Dr. Musa | Internal Medicine | 3 | 3.7 |
 
 All 10 patients matched a doctor. Dr. Musa, the Internal Medicine specialist, treated 3 patients (P002, P005 and P008). Dr. Ade has treated the most patients.
+
+**Screenshots:**
+
+Query 22 (patients with their doctor and specialization):
+
+![Query 22: each patient with their doctor and specialization](images/q22_patient_doctor.png)
+
+Query 24 (average length of stay per doctor):
+
+![Query 24: average length of stay per doctor](images/q24_avg_stay_doctor.png)
+
+Query 25 (doctor with the most patients):
+
+![Query 25: doctor who has treated the most patients](images/q25_busiest_doctor.png)
 
 **Insight:** Dr. Ade carries the heaviest load, with the most patients and the longest average stay (5.0 days), while Dr. Musa has the shortest. The gap is partly down to case mix, since Dr. Ade also has the two oldest patients on the list.
 
@@ -271,4 +311,4 @@ All 10 patients matched a doctor. Dr. Musa, the Internal Medicine specialist, tr
 
 ## Author
 
-**[Your Name]** | [LinkedIn](https://www.linkedin.com/in/your-profile) | [Email](mailto:you@example.com)
+**Aisha Hamza** | [LinkedIn](https://www.linkedin.com/in/your-profile) | [Email](mailto:you@example.com)
