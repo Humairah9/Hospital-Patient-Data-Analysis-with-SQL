@@ -57,7 +57,7 @@ The tables are linked by `Doctor_ID`, and every patient has a matching doctor. T
 
 ## SQL Queries and Analysis
 
-The full script is in [`Hospital Patient Data Analysis with SQL`](TWDP_SQL_Assignment.sql). The queries are grouped below by the SQL skill they use.
+The full script is in [`TWDP_SQL_Assignment.sql`](TWDP_SQL_Assignment.sql). The queries are grouped below by the SQL skill they use.
 
 ### 1. Filtering Data (Queries 1-5)
 
