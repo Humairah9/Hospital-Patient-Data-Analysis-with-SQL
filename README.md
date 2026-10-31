@@ -303,7 +303,7 @@ Query 25 (doctor with the most patients):
 - **PDF:** [Download the analysis as PDF](your-pdf-link)
 - **Walkthrough:** [Watch the query demo on Loom](https://www.loom.com/share/9b0700cc94b94a6e9b22ecfd940800c3)
 - **Full script:** [View all 25 queries](TWDP_SQL_Assignment.sql).
-- **Data:** [`Patients.csv` and `Doctors.csv`](data/) are the source tables.
+- **Data:** [`Patients.csv` and `Doctors.csv`](data) are the source tables.
 - **Run it yourself:** import the two CSV files into a SQL Server database named `TWDP Assignment`, then open the `.sql` script in [SQL Server Management Studio](https://learn.microsoft.com/sql/ssms/download-sql-server-management-studio-ssms) (free, Windows only) and run the queries.
 
 
